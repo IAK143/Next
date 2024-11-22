@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats Page</title>
+    <script>
+        function checkInput() {
+            var userInput = document.getElementById("textInput").value.toLowerCase();
+            if (userInput === "trojan horse") {
+                window.location.href = "https://www.example.com"; // Replace with your desired URL
+            } else {
+                document.getElementById("message").innerText = "Sorry my friend, but you are just a dumb fellow";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Congrats!</h1>
+    <p>Principles of Law 12</p>
+    <p>
+        Deception and distraction go hand in hand. Distracting people gives you time to set up your trap or scheme to deceive them without its being noticed. This is how you use selective honesty and generosity to disarm your victim.
+        <br><br>
+        According to Law 12 of the 48 Laws of Power, one of the most effective methods of distraction is to surprise them with honesty or generosity. This approach disarms people by allaying suspicions and bringing out their inner child — they respond with eager, childlike gratitude.
+        <br><br>
+        The Chinese called this practice “giving before you take” — the gift distracts your victim while you do the taking. The gift can be anything including a physical gift, an act of kindness, a favor, or a seemingly honest admission.
+        <br><br>
+        It can be used to create an immediate distraction from what you’re doing, or to soften someone up for future actions or requests.
+        <br><br>
+        For your first meeting with someone, start with selective honesty. If someone believes you’re honest from the outset, it takes a lot to dislodge that belief, which gives you time to get your plans in place. You can turn this into a reputation for honesty with a series of small acts.
+        <br><br>
+        The con man Victor Lustig used selective honesty and generosity to ingratiate himself with gangster Al Capone. Capone, who was accustomed to dealing with dishonest people, was caught off guard by Lustig’s unexpected honesty, which softened Capone up for Lustig’s real swindle.
+        <br><br>
+        Another sub-law of Law 12 of the 48 Laws of Power is to use generosity. Generosity is another effective tool of distraction. No one, including even the most suspicious or cynical people (remember the Trojan horse?), can resist a gift.
+    </p>
+    <h2>Enter the virus name:</h2>
+    <textarea id="textInput" rows="4" cols="50"></textarea>
+    <br>
+    <button onclick="checkInput()">Submit</button>
+    <p id="message"></p>
+</body>
+</html>
